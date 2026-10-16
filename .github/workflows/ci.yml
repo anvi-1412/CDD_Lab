@@ -28,7 +28,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build (check syntax)
-        run: python -m py_compile calculator.py
+        run: python -m py_compile calc.py
 
       - name: Run tests
         run: pytest
